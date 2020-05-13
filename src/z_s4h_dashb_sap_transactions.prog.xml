@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>Z_S4H_DASHB_SAP_TRANSACTIONS</NAME>
+    <DBAPL>S</DBAPL>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>SAP Transactions Dashboard</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MATGRP03</KEY>
+     <ENTRY>BW - Display Article Hierarchy</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MB11</KEY>
+     <ENTRY>MM - Post Goods Receipt</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>늑</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RPT4 Z_S4H_DASHB_SAP_TRANSACTIONS</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>MATGRP03</KEY>
+       <ENTRY>RPT4&gt;Z_S4H_DASHB_SAP_TRANSACTI</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>MB11</KEY>
+       <ENTRY>RPT4&gt;Z_S4H_DASHB_SAP_TRANSACTI</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>닱</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>[ŜĀƤ∙Ţŗąŋşąċţįŏŋş∙Ďąşĥƃŏąŗƌ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>MATGRP03</KEY>
+       <ENTRY>[ƁŴ∙-∙Ďįşρĺąŷ∙Āŗţįċĺē∙Ĥįēŗąŗċ]</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>MB11</KEY>
+       <ENTRY>[ΜΜ∙-∙Ƥŏşţ∙Ģŏŏƌş∙Řēċēįρţ∙∙∙∙∙]</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
